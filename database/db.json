@@ -1,0 +1,127 @@
+{
+  "contacts": [
+    {
+      "id": "e281",
+      "name": "Serhat berg",
+      "email": "sogutenbas@gmail.com",
+      "phone": "41398537",
+      "message": "heihei"
+    },
+    {
+      "id": "adc9",
+      "name": "magnus",
+      "email": "magnus@gmail.com",
+      "phone": "111111111",
+      "message": "hello"
+    },
+    {
+      "id": "4262",
+      "name": "ida",
+      "email": "ida@gmail.com",
+      "phone": "0000000",
+      "message": "heihei"
+    }
+  ],
+  "users": [
+    {
+      "id": "9963",
+      "username": "serhat",
+      "email": "sogutenbas@gmail.com",
+      "password": "12345",
+      "carbonFootInfos": [
+        {
+          "electricityHousehold": 200,
+          "isHasCar": false,
+          "fuelType": "petrol",
+          "travelledKilometers": 23,
+          "flightCount": 23,
+          "flightDistance": 23,
+          "coalConsumption": 23,
+          "woodConsumption": 23,
+          "meatConsumption": 2,
+          "waterConsumption": 2,
+          "publicTransportDistance": 2,
+          "plantBasedPercentage": 2,
+          "recycling": 4,
+          "clothesFrequency": "veryFrequently",
+          "createdDate": 1712269435074
+        }
+      ]
+    },
+    {
+      "id": "151a",
+      "username": "magnus",
+      "email": "magnus@gmail.com",
+      "password": "1234",
+      "carbonFootInfos": [
+        {
+          "electricityHousehold": 500,
+          "isHasCar": true,
+          "fuelType": "electricity",
+          "travelledKilometers": 500,
+          "flightCount": 5,
+          "flightDistance": 5,
+          "coalConsumption": 50,
+          "woodConsumption": 50,
+          "meatConsumption": 5,
+          "waterConsumption": 50,
+          "publicTransportDistance": 5,
+          "plantBasedPercentage": 3,
+          "recycling": 4,
+          "clothesFrequency": "preferSecondHand",
+          "createdDate": 1712653758265
+        }
+      ]
+    },
+    {
+      "id": "6328",
+      "username": "ida",
+      "email": "ida@gmail.com",
+      "password": "123",
+      "carbonFootInfos": [
+        {
+          "electricityHousehold": 100,
+          "isHasCar": true,
+          "fuelType": "petrol",
+          "travelledKilometers": 100,
+          "flightCount": 2,
+          "flightDistance": 2,
+          "coalConsumption": 20,
+          "woodConsumption": 20,
+          "meatConsumption": 20,
+          "waterConsumption": 200,
+          "publicTransportDistance": 4,
+          "plantBasedPercentage": 2,
+          "recycling": 2,
+          "clothesFrequency": "rarely",
+          "createdDate": 1712655695160
+        }
+      ]
+    },
+    {
+      "id": "cc6e",
+      "username": "hei",
+      "email": "hei@gmail.com",
+      "password": "123",
+      "carbonFootInfos": [
+        {
+          "electricityHousehold": 200,
+          "isHasCar": true,
+          "fuelType": "petrol",
+          "travelledKilometers": 200,
+          "flightCount": 2,
+          "flightDistance": 2,
+          "coalConsumption": 2,
+          "woodConsumption": 2,
+          "meatConsumption": 2,
+          "waterConsumption": 2,
+          "publicTransportDistance": 2,
+          "plantBasedPercentage": 3,
+          "recycling": 2,
+          "clothesFrequency": "frequently",
+          "createdDate": 1712656071731
+        }
+      ]
+    }
+  ]
+}

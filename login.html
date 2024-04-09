@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Mark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"> <a href="#"> <img src="img/Green Mark.svg" alt=""> </a> </div>
+
+            <ul class="links">
+                <li> <a href="">Carboon Footprint Calculation</a> </li>
+                <li><a href="">What is the Carbon Footprint?</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a href="login.html" class="action_btn">Login</a>
+        </nav>
+    </header>
+    <!-- Login/Register menu -->
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn " onclick="openLogin()">Log in</button>
+            <button type="button" class="toggle-btn" onclick="openRegister()">Register</button>
+        </div>
+        <form id="login" class="input-group" onsubmit="login(event)">
+            <input id="username" type="text" class="input-field" placeholder="Username" required>
+            <input id="password" type="text" class="input-field" placeholder="Enter Password" required>
+            <button type="submit" class="submit-btn">Log in</button>
+        </form>
+        <form onsubmit="register(event)" id="register" class="input-group">
+            <input id="username" name="username" type="text" class="input-field" placeholder="Username" required>
+            <input id="email" type="email" class="input-field" placeholder="Email" required>
+            <input id="password" type="text" class="input-field" placeholder="Enter Password" required>
+            <input id="agree" type="checkbox" class="check-box"> <span>I agree to the terms & conditions </span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function openRegister() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+        function openLogin() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+
+        }
+    </script>
+
+    <script src="./js/auth.js"></script>
+
+
+</body>
+
+</html>
